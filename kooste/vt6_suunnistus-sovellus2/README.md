@@ -1,4 +1,4 @@
-#Suunnistus-sovellus2
+# Suunnistus-sovellus2
 
 React-pohjainen sovellus "rogaining"-kilpailulle. Sovellus on harjoitustyö JYU:n TIEA2120 Web-käyttöliittymien ohjelmointi-kurssille.
 Joukkueiden lisäys ja muokkaaminen mahdollista, sekä rastien koodeja voi muuttaa ja niiden sijaintiin vaikuttaa. Sovellus hyödyntää Leaflet-kirjastoa
