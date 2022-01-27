@@ -1,0 +1,99 @@
+
+body {
+  overflow-x: hidden;
+}
+
+p {
+  margin: 0;
+}
+
+form {
+  width: 28vw;
+  margin-left: 1vw;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+}
+
+#lomakkeenDivi {
+  width: 30vw;
+  order: 1;
+}
+
+#joukkuelistausDiv {
+  order: 2;
+  margin-left: 3.5vw;
+}
+
+.rastinLiElem {
+  margin-bottom: 1vh;
+}
+
+.rastinLiElem p {
+  width: calc(28vw/2.5 + 1vw);
+}
+
+.jasLista {
+  margin-bottom: 1vh;
+  list-style-type: square;
+}
+
+
+#rastienDivi {
+  order: 3;
+  margin-left: 3.5vw;
+}
+
+#ylempi {
+  display: grid;
+  gap: 3vh;
+  grid-template-columns: 4.4vw 1fr;
+
+}
+
+#ylempi label {
+  grid-column: 1/2;
+}
+
+#ylempi #nimi {
+  margin-left: 4vw;
+}
+
+#leimaustapa1 p,
+#sarjanChooseri p {
+  display: inline-flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+#leimaustapa1,
+#sarjanChooseri {
+ margin-right: 5.4vw;
+}
+
+#jasenet p {
+  display: flex;
+  margin-top: 1.5vh;
+}
+
+#jasenet label {
+  margin-right: 7vw;
+}
+
+input[type=text] {
+  width: calc(28vw/2.5);
+}
+
+#lomake {
+  width: 28vw;
+}
+
+.rastinkoodi:hover {
+  background-image: linear-gradient(to right, red , yellow);
+}
+
+.koordinaatit:hover {
+  background-image: linear-gradient(to right, rgb(0, 161, 201) , yellow);
+}

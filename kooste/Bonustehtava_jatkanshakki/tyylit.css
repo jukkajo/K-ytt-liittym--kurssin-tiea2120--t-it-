@@ -1,0 +1,128 @@
+html, body, #root, #uloin {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body, #lomakkeenButton, #paluuPainike {
+    font-family: 'Hemi Head', sans-serif;
+}
+
+#paluuPainike {
+    width: min-content;
+}
+
+h1 {
+    width: min-content;
+    height: min-content;
+    margin: auto;
+    text-align: center;
+    font-size: 300%;
+    animation-name: varinVaihto;
+    animation-direction: alternate;
+    animation-iteration-count:infinite; 
+    animation-duration: 3s;
+}
+
+@keyframes varinVaihto {
+     0% {
+        color: coral;
+      }
+
+     100% {
+        color: turquoise;
+      }
+}
+
+h2 {
+    color: rgb(5, 109, 74);
+    font-size: 200%;
+    width: 100%;
+    text-align:center;
+}
+
+h3 {
+    font-size:x-large;
+}
+
+#muutosalue2 {
+    text-align: center;
+    width: 100vw;
+}
+
+#muutosalue1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25vw;
+
+}
+
+#pelilauta {
+    width: 100vw;
+    height: 100vh;
+    margin-left: 0;
+}
+
+#peliformi {
+    margin-left: calc(50vw - 8vw/2);
+    width: min-content;
+
+}
+
+#lomake #muutosalue {
+    height: min-content;
+}
+
+fieldset {
+    border: 3px black solid;
+    display: block;
+}
+
+#pelaajat {
+    display: flex;
+}
+
+#pelaajat label {
+ width: min-content;
+}
+
+#pel1 {
+    margin-right: 1vw;
+}
+
+input[type="range"]::-moz-range-progress {
+    background-color: coral;
+    height: 0.2vw;
+  }
+input[type="range"]::-moz-range-track {  
+    background-color: turquoise;
+    height: 0.2vw;
+}
+
+.ruutu, .korostus {
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    font-size: 60px;
+    font-weight: 500;
+    margin: 0px;
+    width: 70x;
+    height: 70px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.korostus {
+background-color:rgb(5, 109, 74); ;
+}
+
+#laudanDivi {
+    width: 100vw;
+    height: 100vh;
+}

@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#map {
+    width: 100vw;
+    height: 50vh;
+}
+
+#rastit ul li {
+    width: 5em;;
+}
+
+li {
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+    line-height: 0em;
+}
+
+
+.leaflet-pane .leaflet-popup-pane div  {
+    background: transparent;
+    text-align: center;
+    color: green;
+    border: 0;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+#flex {
+    display: flex;
+    padding: 0 1em;
+    justify-content: center;
+    width: calc(100vw - 2em);
+}
+
+.container {
+    flex-grow: 1;
+}
+
+#flex div {
+    overflow: hidden;
+    height: 50vh;
+}
+
+#kartalla {
+    position: relative;
+    padding: 0 1em;
+    flex-grow: 2;
+    overflow: hidden;
+}
+
+#kartalla li {
+    position: absolute;
+}
+
+ul {
+    list-style: none;
+    border: 1px solid black;
+    height: 43vh;
+    padding: 0;
+    overflow: hidden;
+}
+
+#rastit ul {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-end;
+    align-content: space-between;
+}
+
+
